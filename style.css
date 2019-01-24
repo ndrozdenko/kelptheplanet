@@ -1,0 +1,423 @@
+/*COLORS & BACKGROUND*/
+
+.seagreens-green {
+  background-color: #6BC306
+}
+.seagreens-seafoam {
+  background-color: #bee7bc;
+  /*opacity: 0.65;*/
+}
+.seagreens-blue {
+  background-color: #4A7DAF
+}
+.seagreens-teal {
+  background-color: #007974
+}
+
+.category-btn !important {
+  background-color: #4A7DAF;
+  border-color: #dbdbdb;
+  border-color: #ccc;
+}
+
+body {
+  background-image: url("img/background-3.png");
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #4A7DAF;
+  font-size: 300%;
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+h4 {
+  color: #000000;
+}
+
+p {
+  color: #000000;
+}
+
+small {
+  color: #FFFFFF;
+}
+
+.recipe-list {
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* FONTS */
+
+@import url(//db.onlinewebfonts.com/c/c81978bd2428990c504a54b99d93e734?family=NimbuSanTBolCon);
+
+@font-face {font-family: "NimbuSanTBolCon";
+    src: url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.eot");
+    src: url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.svg#NimbuSanTBolCon") format("svg");
+}
+URW Software, Copyright 1992 by URW
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  p h4 h5 {
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+
+  }
+
+
+.lead {
+  margin: 60px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+    html,
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h1  {
+    font-family: 'NimbuSanTBolCon', sans-serif;
+}
+
+h3 {
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+/* end-fonts */
+
+
+.video-margins {
+  margin-top: 110px;
+  margin-right: 30px;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+/* .video-responsive iframe{
+    left:0;
+    top:0;
+    height:150%;
+    width:100%;
+    position:absolute;
+}
+*/
+
+.container-fluid {
+	padding: 20px;
+	margin-right: 60px;
+	margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+    margin-right: 1.25rem;
+}
+
+/* BUTTONS */
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  size: 200%;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+
+
+#next-partner {
+    right: -80px;
+}
+#prev-partner {
+    left: -80px;
+}
+
+
+.partner-imgs {
+    max-width: 90%;
+    opacity: 0.4;
+}
+
+.first-img {
+    max-width: 90%;
+    opacity: 1.0;
+}
+
+.partner-text {
+    visibility: visible;
+}
+
+.partner-title {
+    visibility: visible;
+
+}
+
+
+@media (min-width: 768px) {
+    .navbar.navbar-default .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar.navbar-default .navbar-nav > li {
+        display: inline-block;
+        float: none
+    }
+    #splash {
+        height: 100%;
+    }
+
+    .col-lg-7 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #main-contain {
+        max-width: 900px;
+        margin-top: 80px;
+    }
+
+    .partner-text {
+        visibility: hidden;
+    }
+
+    .partner-title {
+        visibility: hidden;
+
+    }
+
+
+}
+.top-nav-collapse {
+    background-color: #145072 !important;
+}
+
+
+.navbar:not(.top-nav-collapse) {
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #145072 !important;
+
+    }
+
+    .md-form .prefix.grey-text {
+        margin-left: 8px;
+    }
+
+    .social-section {
+        margin-bottom: 25px;
+    }
+
+    .display-1 {
+        font-size: 2.5rem;
+    }
+
+    #contact-title {
+        font-size: 2.2rem;
+    }
+
+    .partner-cards {
+        margin-bottom: 35px;
+    }
+    #main_txt {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+    #splash {
+        height: 100%;
+    }
+
+    #next-partner {
+        right: -15px;
+    }
+    #prev-partner {
+        left: -15px;
+    }
+
+    .first-img {
+        max-width: 80%;
+    }
+
+    .partner-imgs {
+        max-width: 80%;
+    }
+    .partner-text {
+        visibility: visible;
+    }
+
+    .partner-title {
+        visibility: visible;
+
+    }
+
+
+
+}
+.intro-1 {
+    height: 1050px;
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+    .intro-1 {
+        height: 750px;
+    }
+}
+@media (max-width: 740px) {
+    .intro {
+        height: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.nav-list {
+    padding-right: 35px;
+}
+
+.underline {
+    visibility: hidden;
+    background-position: center;
+    background-color: white;
+    position: relative;
+    margin: 0;
+    width: 100%;    /**** Change this to 100% ****/
+    height: 2px;
+    border-radius: 5px;
+    transform: scaleX(0);
+    webkit-transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+.nav-item:hover .underline {
+    visibility: visible;
+    transform: scaleX(1);
+    width: 100%;
+    height: 2px;
+    transition: all .3s ease-in-out;
+}
