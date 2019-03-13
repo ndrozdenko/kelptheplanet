@@ -14,7 +14,7 @@
   background-color: #007974
 }
 
-.category-btn !important {
+.category-btn {
   background-color: #4A7DAF;
   border-color: #dbdbdb;
   border-color: #ccc;
@@ -49,13 +49,12 @@ small {
   color: #FFFFFF;
 }
 
-.recipe-list {
+.recipe-list li {
   margin-left: 30px;
   font-family: 'Montserrat', sans-serif;
 }
 
 /* FONTS */
-
 @import url(//db.onlinewebfonts.com/c/c81978bd2428990c504a54b99d93e734?family=NimbuSanTBolCon);
 
 @font-face {font-family: "NimbuSanTBolCon";
@@ -66,7 +65,7 @@ small {
     url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/c81978bd2428990c504a54b99d93e734.svg#NimbuSanTBolCon") format("svg");
 }
-URW Software, Copyright 1992 by URW
+/*URW Software, Copyright 1992 by URW*/
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -77,11 +76,10 @@ only screen and (min-device-pixel-ratio: 1.5){
   p h4 h5 {
       font-family: 'Montserrat', sans-serif;
       color: black;
-
   }
 
 
-.lead {
+.lead, .recipe-list li {
   margin: 60px;
   font-size: 36px;
   font-weight: 400;
@@ -122,7 +120,7 @@ h1 {
 html {
   font-size: 1rem;
 }
-
+/*
 @include media-breakpoint-up(sm) {
   html {
     font-size: 1.2rem;
@@ -140,7 +138,7 @@ html {
     font-size: 1.6rem;
   }
 }
-
+*/
 /* end-fonts */
 
 
@@ -420,4 +418,26 @@ fieldset[disabled] .btn-primary.focus {
     width: 100%;
     height: 2px;
     transition: all .3s ease-in-out;
+}
+
+}
+
+/** CAROUSEL STYLES **/
+
+.carousel-inner .item {
+    padding: 2% 4% 0;
+}
+
+.carousel-inner {
+    padding-bottom:  5%;
+}
+
+.carousel-control {
+    width: 3%;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
 }
