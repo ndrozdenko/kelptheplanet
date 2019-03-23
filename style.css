@@ -173,6 +173,7 @@ html {
 	margin-left: 60px;
   margin-top: 20px;
   margin-bottom: 20px;
+  opacity: 0.75;
 }
 
 .card-body {
