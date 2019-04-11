@@ -19,53 +19,6 @@
   border-color: #ccc;
 }
 
-.scroll {
-    max-height: 100px;
-    overflow-y: auto;
-}
-
-.btn-primary {
-  background-color: #4A7DAF;
-  border-color: #dbdbdb;
-  border-color: #ccc;
-}
-
-.card {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #a3dda1;
-  background-clip: border-box;
-  border: 0px solid #6ec969;
-  border-radius: 0.25rem;
-
-}
-
-.blankcard {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: transparent;
-  background-clip: border-box;
-  border: 0px solid #6ec969;
-  border-radius: 0.25rem;
-
-}
-
 body {
   background-image: url("img/background-3.png");
 }
@@ -138,13 +91,6 @@ only screen and (min-device-pixel-ratio: 1.5){
 .row {
   margin-right: -15px;
   margin-left: -15px;
-}
-
-.card-img-top {
-  width: 325px;
-  height: 325px;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
 }
 
     html,
